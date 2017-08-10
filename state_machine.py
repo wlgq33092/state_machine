@@ -5,6 +5,9 @@ class State(object):
 		self.name = name
 		self.transition_dict = {}
 
+	def add_transition(self):
+		pass
+
 
 
 class StateMachine(object):
